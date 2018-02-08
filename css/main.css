@@ -2,3 +2,9 @@
   height: 400px;
   width: 500px;
 }
+
+.nav {
+  background: rgb(0, 131, 180);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

@@ -9,21 +9,32 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <button id="find-me" type="button" name="button">Encuéntrame</button>
-    <form class="" action="index.html" method="post">
-      <label for="">Origen</label>
-      <input type="text" name="" value="" placeholder="Introduce una ubicación">
-      <label for="">Destino</label>
-      <input type="text" name="" value="" placeholder="Introduce una ubicación">
-    </form>
-    <button type="button" name="button">Ruta</button>
-
+    <header class="container">
+      <div class="row">
+        <div class="col col-lg-3">
+          <button id="find-me" type="button" name="button">Encuéntrame</button>
+        </div>
+        <div class="col col-lg-3">
+          <label for="">Origen</label>
+          <input type="text" name="" value="" placeholder="Introduce una ubicación">
+        </div>
+        <div class="col col-lg-3">
+          <label for="">Destino</label>
+          <input type="text" name="" value="" placeholder="Introduce una ubicación">
+        </div>
+        <div class="col col-lg-3">
+          <button type="button" name="button">Ruta</button>
+        </div>
+      </div>
+    </header>
+    
     <div id="map">
 
     </div>
 
     <!-- OptionaJavaScript -->
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCUq9qVfPzHOYMxEcpLlbywwAwQbrlxFTM&callback=initMap"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
   </body>
